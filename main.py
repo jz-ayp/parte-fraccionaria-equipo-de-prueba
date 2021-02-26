@@ -13,5 +13,5 @@ else:
 	resultado = "sí"
 
 # Salidas
-print(resultado, "tiene parte fraccionaria.")
+print(resultado, "tiene decimales")
 
