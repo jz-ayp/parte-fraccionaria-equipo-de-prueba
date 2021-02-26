@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Test1",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 main.py",
+      "input": "1",
+      "output": "No tiene decimales",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "Test2",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 main.py",
+      "input": "1.2",
+      "output": "Sí tiene decimales",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "Test3",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 main.py",
+      "input": "-0.9",
+      "output": "Sí tiene decimales",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "Test4",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 main.py",
+      "input": "0",
+      "output": "No tiene decimales",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    }
+  ]
+}
