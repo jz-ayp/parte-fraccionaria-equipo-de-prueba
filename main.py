@@ -1,15 +1,17 @@
-"""
-Inserta el encabezado aquí y escribe tu código abajo
-"""
 
-# Declaraciones
-CONSTANTE = valor
+"""
+Determinar si un número tiene parte fraccionaria
+"""
 
 # Entradas
-entrada = input()
-
+numero = eval(input("Introduzca un número: "))
+	
 # Proceso
-
+if numero == int(numero):
+	resultado = "No"
+else:
+	resultado = "Sí"
 
 # Salidas
-print(salida)
+print(resultado, "tiene decimales")
+
