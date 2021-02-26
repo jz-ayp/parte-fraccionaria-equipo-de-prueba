@@ -10,7 +10,7 @@ numero = eval(input("Introduzca un número: "))
 if numero == int(numero):
 	resultado = "No"
 else:
-	resultado = "sí"
+	resultado = "Sí"
 
 # Salidas
 print(resultado, "tiene decimales")
